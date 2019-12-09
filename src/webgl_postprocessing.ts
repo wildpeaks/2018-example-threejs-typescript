@@ -6,11 +6,11 @@
  */
 
 import {WebGLRenderer, PerspectiveCamera, Scene, Fog, Object3D, SphereBufferGeometry, MeshPhongMaterial, Mesh, AmbientLight, DirectionalLight} from 'three';
-import {DotScreenShader} from 'three/examples/js/shaders/DotScreenShader';
-import {RGBShiftShader} from 'three/examples/js/shaders/RGBShiftShader';
-import {EffectComposer} from 'three/examples/js/postprocessing/EffectComposer';
-import {RenderPass} from 'three/examples/js/postprocessing/RenderPass';
-import {ShaderPass} from 'three/examples/js/postprocessing/ShaderPass';
+import {DotScreenShader} from 'three/examples/jsm/shaders/DotScreenShader';
+import {RGBShiftShader} from 'three/examples/jsm/shaders/RGBShiftShader';
+import {EffectComposer} from 'three/examples/jsm/postprocessing/EffectComposer';
+import {RenderPass} from 'three/examples/jsm/postprocessing/RenderPass';
+import {ShaderPass} from 'three/examples/jsm/postprocessing/ShaderPass';
 
 
 const renderer = new WebGLRenderer();
